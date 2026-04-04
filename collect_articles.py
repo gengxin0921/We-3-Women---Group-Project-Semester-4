@@ -110,13 +110,8 @@ PUBLISHERS = [
     PublisherCollection.il.IsraelNachrichten,
 ]
 
-# Default local test subset: start with ONE publisher
-TEST_PUBLISHERS = [
-    PublisherCollection.us.Reuters,
-]
-
 # Change this to PUBLISHERS later when you want the full run
-ACTIVE_PUBLISHERS = TEST_PUBLISHERS
+ACTIVE_PUBLISHERS = PUBLISHERS
 
 
 # ══════════════════════════════════════════════════════════════════════════════
